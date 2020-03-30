@@ -6,8 +6,8 @@ import org.junit.Test
 
 class MathTest {
     @Test
-    fun someTest() {
-        assertThat(5, `is`(2 + 3))
+    fun subTest() {
+        assertThat(-1, `is`(2 - 3))
     }
 
     @Test
