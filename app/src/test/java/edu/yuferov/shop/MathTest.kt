@@ -16,9 +16,13 @@ class MathTest {
         assertThat(4, `is`(++x))
     }
 
-
     @Test
     fun divideTest() {
         assertThat(2, `is`(4 / 2))
+    }
+
+    @Test
+    fun multiplicationTest() {
+        assertThat(10, `is`(2 * 5))
     }
 }
