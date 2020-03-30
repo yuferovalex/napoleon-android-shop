@@ -15,4 +15,10 @@ class MathTest {
         var x = 3;
         assertThat(4, `is`(++x))
     }
+
+
+    @Test
+    fun divideTest() {
+        assertThat(2, `is`(4 / 2))
+    }
 }
