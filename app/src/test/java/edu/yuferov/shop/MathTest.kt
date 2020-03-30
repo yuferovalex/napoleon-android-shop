@@ -9,4 +9,10 @@ class MathTest {
     fun someTest() {
         assertThat(5, `is`(2 + 3))
     }
+
+    @Test
+    fun incrementTest() {
+        var x = 3;
+        assertThat(4, `is`(++x))
+    }
 }
