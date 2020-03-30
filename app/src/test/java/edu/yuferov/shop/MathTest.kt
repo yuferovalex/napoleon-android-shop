@@ -9,4 +9,9 @@ class MathTest {
     fun someTest() {
         assertThat(5, `is`(2 + 3))
     }
+
+    @Test
+    fun divideTest() {
+        assertThat(2, `is`(4 / 2))
+    }
 }
