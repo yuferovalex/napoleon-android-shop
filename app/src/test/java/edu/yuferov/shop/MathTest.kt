@@ -9,4 +9,9 @@ class MathTest {
     fun someTest() {
         assertThat(5, `is`(2 + 3))
     }
+
+    @Test
+    fun multiplicationTest() {
+        assertThat(10, `is`(2 * 5))
+    }
 }
