@@ -2,7 +2,7 @@ package edu.yuferov.shop
 
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.MatcherAssert.assertThat
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 class MathTest {
     @Test
@@ -12,7 +12,7 @@ class MathTest {
 
     @Test
     fun incrementTest() {
-        var x = 3;
+        var x = 3
         assertThat(4, `is`(++x))
     }
 
