@@ -7,7 +7,7 @@ import edu.yuferov.shop.domain.product.Quantity
 
 class BucketItem(val product: Product,
                  val quantity: Quantity,
-                 val discount: Percent) {
+                 val discount: Percent = Percent(0.0)) {
 
     val price = product.price * quantity - discount
 
